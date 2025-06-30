@@ -86,7 +86,7 @@ Initially, the frontend (served via CloudFront) failed to fetch data. The issue 
 - Updated `script.js` with the correct API URL
 - Re-uploaded the file to the S3 bucket
 
-However, after correcting the URL, the browser console displayed a CORS (Cross-Origin Resource Sharing) error. This occurred because API Gateway, by default, only allows requests from the browser directly — not via the CloudFront domain.
+However, after correcting the URL, the browser console displayed a CORS (Cross-Origin Resource Sharing) error. This occurred because API Gateway, by default, only allows requests from the browser directly, not via the CloudFront domain.
 
 
 ![Image](https://i.imgur.com/PLgTn8y.png)
